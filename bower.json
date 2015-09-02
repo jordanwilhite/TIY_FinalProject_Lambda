@@ -14,6 +14,7 @@
   ],
   "dependencies": {
     "bourbon": "~4.2.4",
-    "neat": "~1.7.2"
+    "neat": "~1.7.2",
+    "react": "~0.13.3"
   }
 }
