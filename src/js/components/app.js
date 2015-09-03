@@ -1,9 +1,10 @@
 import React from 'react';
-import LogoView from "./logoview.js";
-import SearchView from "./searchview.js";
-import MechanicsView from "./mechanicsview.js";
-import WavesView from "./wavesview.js";
-import ElectricityView from "./electricityview.js";
+import LogoView from './logoview.js';
+import SearchView from './searchview.js';
+import MechanicsView from './mechanicsview.js';
+import WavesView from './wavesview.js';
+import ElectricityView from './electricityview.js';
+import GeotrigView from './geotrigview.js';
 
 var App = React.createClass ({
   render: function(){
@@ -14,6 +15,7 @@ var App = React.createClass ({
       <MechanicsView />
       <WavesView />
       <ElectricityView />
+      <GeotrigView />
     </div>
     )
   }
