@@ -1,9 +1,14 @@
-require React;
-React.render(
-  <div>
-    <h1>lambda</h1>
-    <h2>a physics aid | &lambda;</h2>
-    <h3>This is a text</h3>
-  </div>,
-  document.getElementById('app')
-);
+import React from 'react';
+
+var LogoView = React.createClass({
+  render: function(){
+    return(
+      <div>
+        <img src={""}></img>
+        <h1>Lambda</h1>
+        <h1>a physics aid | &lambda;</h1>
+      </div>
+    )
+  }
+});
+React.render(<LogoView />, document.getElementById('app'))
