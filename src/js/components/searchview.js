@@ -16,6 +16,4 @@ var SearchView = React.createClass({
   }
 });
 
-// React.render(<SearchView />, document.getElementById('app'))
-
 export default SearchView;
