@@ -7,8 +7,8 @@ var SearchView = React.createClass({
         <button type="button">Tables</button>
         <select>
           <option>Mechanics</option>
-          <option>Electricity</option>
           <option>Waves</option>
+          <option>Electricity</option>
           <option>Geometry & Trigonometry</option>
         </select>
       </div>
