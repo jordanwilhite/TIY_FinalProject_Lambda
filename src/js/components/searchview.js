@@ -1,17 +1,21 @@
 import React from 'react';
 
-var SearchView = React.creatClass({
+var SearchView = React.createClass({
   render: function(){
     return(
       <div>
-        <button type="button" onClick="alert('button has been clicked')">Tables</button>
+        <button type="button">Tables</button>
         <select>
-          <option>test</option>
-          <option>test</option>
-          <option>test</option>
+          <option>Mechanics</option>
+          <option>Electricity</option>
+          <option>Waves</option>
+          <option>Geometry & Trigonometry</option>
         </select>
       </div>
     )
   }
 });
-React.render(<SearchView />, document.getElementById('app'))
+
+// React.render(<SearchView />, document.getElementById('app'))
+
+export default SearchView;
