@@ -5,6 +5,7 @@ import MechanicsView from './mechanicsview.js';
 import WavesView from './wavesview.js';
 import ElectricityView from './electricityview.js';
 import GeotrigView from './geotrigview.js';
+import TableView from './tableview.js';
 
 var App = React.createClass ({
   render: function(){
@@ -16,6 +17,7 @@ var App = React.createClass ({
       <WavesView />
       <ElectricityView />
       <GeotrigView />
+      <TableView />
     </div>
     )
   }
