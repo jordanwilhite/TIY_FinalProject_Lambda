@@ -7,13 +7,13 @@ var TableView = React.createClass({
       <table>
         <th>Constants & Conversion Factors</th>
           <tr>
-            <td>one</td>
+            <td></td>
           </tr>
           <tr>
-            <td>one</td>
+            <td></td>
           </tr>
           <tr>
-            <td>one</td>
+            <td></td>
           </tr>
         </table>
       <table>
