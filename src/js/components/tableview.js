@@ -35,7 +35,7 @@ var TableView = React.createClass({
             <td>G = 6.67 &#xd7; 10<sup>-11</sup> m<sup>3</sup> /kg&middot;s<sup>2</sup></td>
           </tr>
           <tr>
-            <td>Acceleration due <br></br> to gravity at Earth's Surface</td>
+            <td>Acceleration due <br></br> to gravity at Earths Surface</td>
             <td> g = 9.8 m/s<sup>2</sup></td>
           </tr>
         </table>
@@ -80,20 +80,6 @@ var TableView = React.createClass({
       </table>
       <table>
         <th>Unit <br>Symbols</br></th>
-          <tr>Name</tr>
-            <td>meter</td>
-            <td>kilogram</td>
-            <td>second</td>
-            <td>ampere</td>
-            <td>kelvin</td>
-            <td>hertz</td>
-            <td>newton</td>
-            <td>jule</td>
-            <td>watt</td>
-            <td>coulomb</td>
-            <td>volt</td>
-            <td>ohm</td>
-            <td>degrees Celsius</td>
           <tr>Symbol</tr>
             <td>m</td>
             <td>kg</td>
@@ -108,9 +94,63 @@ var TableView = React.createClass({
             <td>V</td>
             <td>&Omega;</td>
             <td>&deg;C</td>
+          <tr>Name</tr>
+            <td>meter</td>
+            <td>kilogram</td>
+            <td>second</td>
+            <td>ampere</td>
+            <td>kelvin</td>
+            <td>hertz</td>
+            <td>newton</td>
+            <td>jule</td>
+            <td>watt</td>
+            <td>coulomb</td>
+            <td>volt</td>
+            <td>ohm</td>
+            <td>degrees Celsius</td>
       </table>
       <table>
         <th>Values of Trigonometric Functions for Common Angles</th>
+          <tr>
+            <td>&theta;</td>
+            <td>0&deg;</td>
+            <td>30&deg;</td>
+            <td>37&deg;</td>
+            <td>45&deg;</td>
+            <td>53&deg;</td>
+            <td>60&deg;</td>
+            <td>90&deg;</td>
+          </tr>
+            <td>sin&theta;</td>
+            <td>0</td>
+            <td>1/2</td>
+            <td>3/5</td>
+            <td>&radic;2/2</td>
+            <td>4/5</td>
+            <td>&radic;3/2</td>
+            <td>1</td>
+          <tr>
+            <td>cos&theta;</td>
+            <td>1</td>
+            <td>&radic;3/2</td>
+            <td>4/5</td>
+            <td>&radic;2/2</td>
+            <td>3/5</td>
+            <td>1/2</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>tan&theta;</td>
+            <td>0</td>
+            <td>&radic;3/3</td>
+            <td>3/4</td>
+            <td>1</td>
+            <td>4/3</td>
+            <td>&radic;3</td>
+            <td>&infin;</td>
+          </tr>
+          <tr>
+          </tr>
       </table>
       </div>
     )
