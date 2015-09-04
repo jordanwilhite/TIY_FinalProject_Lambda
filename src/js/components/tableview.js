@@ -8,27 +8,35 @@ var TableView = React.createClass({
         <th>Constants & Conversion Factors</th>
           <tr>
             <td>Proton Mass</td>
+            <td>m<sub>p </sub>=1.67 &#xd7; 10<sup>-27</sup> kg</td>
           </tr>
           <tr>
             <td>Neutron Mass</td>
+            <td>m<sub>n </sub>=1.67 &#xd7; 10<sup>-27</sup> kg</td>
           </tr>
           <tr>
             <td>Electron Mass</td>
+            <td>m<sub>c</sub>=9.11 &#xd7; 10<sup>-31</sup> kg</td>
           </tr>
           <tr>
             <td>Speed of Light</td>
+            <td>c = 3.00 &#xd7;10<sup>8</sup> m/s</td>
           </tr>
           <tr>
             <td>Electron Charge Magnitude</td>
+            <td>e = 1.60 &#xd7;10<sup>-19</sup> C</td>
           </tr>
           <tr>
             <td>Coulomb's Law Constatnt</td>
+            <td>k = 1/4&pi;&epsilon;<sub>0</sub> = 9.0 &#xd7; 10<sup>9</sup> N-m<sup>2</sup> /C<sup>2</sup></td>
           </tr>
           <tr>
             <td>Universal Gravitational Constant</td>
+            <td>G = 6.67 &#xd7; 10<sup>-11</sup> m<sup>3</sup> /kg&middot;s<sup>2</sup></td>
           </tr>
           <tr>
-            <td>Accel. due to gravity at Earth's Surface</td>
+            <td>Acceleration due <br></br> to gravity at Earth's Surface</td>
+            <td> g = 9.8 m/s<sup>2</sup></td>
           </tr>
         </table>
       <table>
