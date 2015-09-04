@@ -1,4 +1,5 @@
 import React from 'react';
+import Router, { RouteHandler } from 'react-router';
 import LogoView from './logoview.js';
 import SearchView from './searchview.js';
 import MechanicsView from './mechanicsview.js';
@@ -18,6 +19,7 @@ var App = React.createClass ({
       <ElectricityView />
       <GeotrigView />
       <TableView />
+      <RouteHandler />
     </div>
     )
   }
