@@ -5,7 +5,7 @@ var GeotrigView = React.createClass({
     return(
       <div>
           <nav>
-            <a href="#">Geometry & Trigonmetry Variables</a>
+            <a href="geotrig">Geometry & Trigonmetry Variables</a>
           </nav>
       </div>
     )

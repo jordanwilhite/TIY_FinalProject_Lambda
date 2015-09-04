@@ -1,6 +1,4 @@
 import React from 'react';
-import Router from 'react-router';
-import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
 var SearchView = React.createClass({
   render: function(){
