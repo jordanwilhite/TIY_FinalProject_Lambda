@@ -1,9 +1,12 @@
 import React from 'react';
+import Router from 'react-router';
+import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
 var TableView = React.createClass({
   render: function(){
     return(
       <div>
+        <Link to="tables">Tables</Link>
       <table>
         <th>Constants & Conversion Factors</th>
           <tr>

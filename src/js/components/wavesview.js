@@ -9,7 +9,6 @@ var WavesView = React.createClass({
         <span>
           <nav>
             <Link to="waves">Wave Variables </Link>
-            <Link to="app"> Home</Link>
           </nav>
         </span>
       </div>
