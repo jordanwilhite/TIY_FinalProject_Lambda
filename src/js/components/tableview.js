@@ -27,7 +27,7 @@ var TableView = React.createClass({
             <td>e = 1.60 &#xd7;10<sup>-19</sup> C</td>
           </tr>
           <tr>
-            <td>Coulomb's Law Constatnt</td>
+            <td>Coulombs Law Constatnt</td>
             <td>k = 1/4&pi;&epsilon;<sub>0</sub> = 9.0 &#xd7; 10<sup>9</sup> N-m<sup>2</sup> /C<sup>2</sup></td>
           </tr>
           <tr>
