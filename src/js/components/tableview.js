@@ -35,6 +35,15 @@ var TableView = React.createClass({
         <th>Prefixes</th>
         <tr>
           <td>Factor</td>
+          <td>10<sup>12</sup></td>
+          <td>10<sup>9</sup></td>
+          <td>10<sup>6</sup></td>
+          <td>10<sup>3</sup></td>
+          <td>10<sup>-2</sup></td>
+          <td>10<sup>-3</sup></td>
+          <td>10<sup>-6</sup></td>
+          <td>10<sup>-9</sup></td>
+          <td>10<sup>-12</sup></td>
         </tr>
         <tr>
           <td>Prefix</td>
@@ -46,7 +55,7 @@ var TableView = React.createClass({
           <td>milli</td>
           <td>micro</td>
           <td>nano</td>
-          <td>pano</td>
+          <td>pico</td>
         </tr>
         <tr>
           <td>Symbol</td>
