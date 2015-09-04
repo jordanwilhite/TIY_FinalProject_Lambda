@@ -35,7 +35,7 @@ var TableView = React.createClass({
             <td>G = 6.67 &#xd7; 10<sup>-11</sup> m<sup>3</sup> /kg&middot;s<sup>2</sup></td>
           </tr>
           <tr>
-            <td>Acceleration due <br></br> to gravity at Earth's Surface</td>
+            <td>Acceleration due <br></br> to gravity at Earths Surface</td>
             <td> g = 9.8 m/s<sup>2</sup></td>
           </tr>
         </table>
