@@ -8,7 +8,7 @@ var MechanicsView = React.createClass({
       <div>
         <span>
           <nav>
-            <Link to="mechanics">Mechanics Variables </Link>
+            <a href="mechanics">Mechanics Variables </a>
           </nav>
         </span>
       </div>
