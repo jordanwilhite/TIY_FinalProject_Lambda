@@ -1,5 +1,6 @@
 import React from 'react';
 import Router from 'react-router';
+import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
 var ElectricityView = React.createClass({
   render: function(){
@@ -7,7 +8,7 @@ var ElectricityView = React.createClass({
       <div>
         <span>
           <nav>
-            // <a href="electricity">Electricity Variables</a>
+            <Link to="electricity">Electricity Variables</Link>
           </nav>
         </span>
       </div>
@@ -16,3 +17,5 @@ var ElectricityView = React.createClass({
 });
 
 export default ElectricityView
+
+// <a href="electricity">Electricity Variables</a>
