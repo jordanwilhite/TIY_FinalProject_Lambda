@@ -8,7 +8,8 @@ var ElectricityView = React.createClass({
       <div>
         <span>
           <nav>
-            <Link to="electricity">Electricity Variables</Link>
+            <Link to="electricity">Electricity Variables </Link>
+            <Link to="app"> Home</Link>
           </nav>
         </span>
       </div>
@@ -17,5 +18,3 @@ var ElectricityView = React.createClass({
 });
 
 export default ElectricityView
-
-// <a href="electricity">Electricity Variables</a>
