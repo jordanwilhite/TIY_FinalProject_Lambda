@@ -7,6 +7,7 @@ import WavesView from './wavesview.js';
 import WaveVariables from './waves.js'
 import ElectricityView from './electricityview.js';
 import GeotrigView from './geotrigview.js';
+import GeotrigVariables from './geotrig.js';
 import TableView from './tableview.js';
 import Tables from './tables.js';
 
@@ -21,6 +22,7 @@ var App = React.createClass ({
       <WaveVariables />
       <ElectricityView />
       <GeotrigView />
+      <GeotrigVariables />
       <TableView />
       <Tables />
       <RouteHandler />
