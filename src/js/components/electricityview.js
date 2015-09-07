@@ -1,4 +1,5 @@
 import React from 'react';
+import ElectricVariables from './electricity.js';
 import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
