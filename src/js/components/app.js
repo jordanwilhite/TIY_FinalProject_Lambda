@@ -4,6 +4,7 @@ import LogoView from './logoview.js';
 import SearchView from './searchview.js';
 import MechanicsView from './mechanicsview.js';
 import WavesView from './wavesview.js';
+import WaveVariables from './waves.js'
 import ElectricityView from './electricityview.js';
 import GeotrigView from './geotrigview.js';
 import TableView from './tableview.js';
@@ -16,6 +17,7 @@ var App = React.createClass ({
       <SearchView />
       <MechanicsView />
       <WavesView />
+      <WaveVariables />
       <ElectricityView />
       <GeotrigView />
       <TableView />
