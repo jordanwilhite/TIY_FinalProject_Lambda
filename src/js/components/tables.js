@@ -4,6 +4,8 @@ var Tables = React.createClass({
   render: function (){
     return(
       <div>
+        <aside>
+        <table>
         <table>
           <th>Constants & Conversion Factors</th>
             <tr>
@@ -152,6 +154,8 @@ var Tables = React.createClass({
             <tr>
             </tr>
         </table>
+        </table>
+        </aside>
       </div>
     )
   }
