@@ -19,6 +19,9 @@ body{
       h1{
         @include span-columns (6);
         @include shift (3);
+        font-family: "Lato";
+        font-size: 55px;
+        text-align: center;
       }
         .maintitle{
           text-align: center;
@@ -31,6 +34,8 @@ body{
       h2{
         @include span-columns (6);
         @include shift (3);
+        margin: 0;
+        text-align: center;
       }
         .subtitle{
           text-align: center;
@@ -44,6 +49,8 @@ body{
       h3{
         @include span-columns (6);
         @include shift (3);
+        margin: 0;
+        text-align: center;
       }
         .author{
           text-align: center;
@@ -55,10 +62,22 @@ body{
           margin-left: 335px;
           margin-top: 5px;
         }
+        .gt{
+          float:none;
+        }
       p{
         @include span-columns (6);
         @include shift (3);
+        font-family: "Lato";
+        margin: 0;
+        font-size: 14px;
+        text-align: center;
+        white-space: nowrap;
       }
+        .gt{
+          float:none;
+        }
+
       div.buttons{
         @include span-columns (6);
         @include shift (3);
@@ -134,12 +153,13 @@ body{
           font-family: "Lato";
           font-weight: 300;
           font-size: 15px;
-          margin-bottom: 5px;
+          margin-bottom: 15px;
         }
         .wform{
           @include span-columns (6);
           @include shift (3);
           color: #FF0033;
+          margin-top: 15px;
           text-align: right;
           font-family: "Lato";
           font-weight: 300;
@@ -149,6 +169,7 @@ body{
           @include span-columns (6);
           @include shift (3);
           color: #FF0033;
+          margin-top: 15px;
           text-align: right;
           font-family: "Lato";
           font-weight: 300;
@@ -158,6 +179,7 @@ body{
           @include span-columns (6);
           @include shift (3);
           color: #FF0033;
+          margin-top: 15px;
           text-align: right;
           font-family: "Lato";
           font-weight: 300;
@@ -167,6 +189,7 @@ body{
           @include span-columns (6);
           @include shift (3);
           color: #FF0033;
+          margin-top: 15px;
           text-align: right;
           font-family: "Lato";
           font-weight: 300;
@@ -176,6 +199,7 @@ body{
           @include span-columns (6);
           @include shift (3);
           color: #FF0033;
+          margin-top: 15px;
           text-align: right;
           font-family: "Lato";
           font-weight: 300;

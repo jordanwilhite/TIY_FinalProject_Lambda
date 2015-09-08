@@ -15,7 +15,7 @@ var ElectricVariables = React.createClass({
             <p>r = separation</p>
             <p>t = time</p>
             <p>V = electric potential</p>
-            <p>%rho; = resistivity</p>
+            <p>&rho; = resistivity</p>
           <h1>Formulas</h1>
           <p>F<sub>E</sub> = k (q<sub>1</sub>q<sub>2</sub>/r<sup>2</sup>)</p>
           <p>I = &Delta;q/&Delta;t</p>
