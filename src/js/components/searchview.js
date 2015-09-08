@@ -3,12 +3,12 @@ import React from 'react';
 var SearchView = React.createClass({
   render: function(){
     return(
-      <div>
-        <button type="button">Tables</button>
-        <button type="button">Mechanics</button>
-        <button type="button">Waves</button>
-        <button type="button">Electricity</button>
-        <button type="button">Geometry & Trigonometry</button>
+      <div className="buttons">
+        <button className="tabbtn" type="button">Tables</button>
+        <button className="mechbtn" type="button">Mechanics</button>
+        <button className="wavbtn" type="button">Waves</button>
+        <button className="elcbtn" type="button">Electricity</button>
+        <button className="gtbtn" type="button">Geometry & Trigonometry</button>
       </div>
     )
   }
