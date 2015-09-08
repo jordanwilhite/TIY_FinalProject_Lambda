@@ -6,7 +6,7 @@ import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 var TableView = React.createClass({
   render: function(){
     return(
-      <div>
+      <div nameClass="links">
         <Link to="tables">Tables </Link>
         <Link to="app"> Home</Link>
       </div>
