@@ -3,6 +3,7 @@ import Router, { RouteHandler } from 'react-router';
 import LogoView from './logoview.js';
 import SearchView from './searchview.js';
 import MechanicsView from './mechanicsview.js';
+import MechVariables from './mechanics.js';
 import WavesView from './wavesview.js';
 import WaveVariables from './waves.js'
 import ElectricityView from './electricityview.js';
@@ -19,6 +20,7 @@ var App = React.createClass ({
       <LogoView />
       <SearchView />
       <MechanicsView />
+      <MechVariables />
       <WavesView />
       <WaveVariables />
       <ElectricityView />
