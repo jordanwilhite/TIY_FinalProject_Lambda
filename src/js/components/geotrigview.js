@@ -7,8 +7,8 @@ var GeotrigView = React.createClass({
   render: function(){
     return(
       <div nameClass="links">
-            <Link to="geotrig">Geometry & Trigonometry Variables </Link>
-            <Link to="app"> Home</Link>
+            <Link to="geotrig" className="gtform">Geometry & Trigonometry Variables </Link>
+            <Link to="app" className="home"> Home</Link>
       </div>
     )
   }

@@ -6,8 +6,8 @@ var MechanicsView = React.createClass({
   render: function(){
     return(
       <div nameClass="links">
-        <Link to="mechanics">Mechanics Variables </Link>
-        <Link to="app"> Home</Link>
+        <Link to="mechanics" className="mform">Mechanics Variables </Link>
+        <Link to="app" className="home"> Home</Link>
       </div>
     )
   }

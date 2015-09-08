@@ -7,8 +7,8 @@ var ElectricityView = React.createClass({
   render: function(){
     return(
       <div nameClass="links">
-            <Link to="electricity">Electricity Variables </Link>
-            <Link to="app"> Home</Link>
+            <Link to="electricity" className="eform">Electricity Variables </Link>
+            <Link to="app" className="home"> Home</Link>
       </div>
     )
   }
