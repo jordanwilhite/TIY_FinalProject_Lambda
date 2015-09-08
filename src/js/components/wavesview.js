@@ -7,8 +7,8 @@ var WavesView = React.createClass({
   render: function(){
     return(
       <div nameClass="links">
-            <Link to="waves">Wave Variables </Link>
-            <Link to="app"> Home</Link>
+            <Link to="waves" className="wform">Wave Variables </Link>
+            <Link to="app" className="home"> Home</Link>
       </div>
     )
   }

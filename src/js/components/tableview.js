@@ -7,8 +7,8 @@ var TableView = React.createClass({
   render: function(){
     return(
       <div nameClass="links">
-        <Link to="tables">Tables </Link>
-        <Link to="app"> Home</Link>
+        <Link to="tables" className="tform">Tables </Link>
+        <Link to="app" className="home"> Home</Link>
       </div>
     )
   }
