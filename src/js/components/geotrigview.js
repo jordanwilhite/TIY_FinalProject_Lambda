@@ -6,11 +6,9 @@ import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 var GeotrigView = React.createClass({
   render: function(){
     return(
-      <div>
-          <nav>
+      <div nameClass="links">
             <Link to="geotrig">Geometry & Trigonometry Variables </Link>
             <Link to="app"> Home</Link>
-          </nav>
       </div>
     )
   }

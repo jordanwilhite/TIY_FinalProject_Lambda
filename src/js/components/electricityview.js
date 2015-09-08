@@ -6,13 +6,9 @@ import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 var ElectricityView = React.createClass({
   render: function(){
     return(
-      <div>
-        <span>
-          <nav>
+      <div nameClass="links">
             <Link to="electricity">Electricity Variables </Link>
             <Link to="app"> Home</Link>
-          </nav>
-        </span>
       </div>
     )
   }

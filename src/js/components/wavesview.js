@@ -6,11 +6,9 @@ import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 var WavesView = React.createClass({
   render: function(){
     return(
-      <div>
-          <nav>
+      <div nameClass="links">
             <Link to="waves">Wave Variables </Link>
             <Link to="app"> Home</Link>
-          </nav>
       </div>
     )
   }
