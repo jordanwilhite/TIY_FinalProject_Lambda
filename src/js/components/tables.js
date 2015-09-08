@@ -3,10 +3,10 @@ import React from 'react';
 var Tables = React.createClass({
   render: function (){
     return(
-      <div>
+      <div nameClass ="tablegroup">
         <table>
-          <table>
             <th>Constants & Conversion Factors</th>
+          <table>
               <tr>
                 <td>Proton Mass</td>
                 <td>m<sub>p </sub>=1.67 &#xd7; 10<sup>-27</sup> kg</td>
@@ -80,8 +80,8 @@ var Tables = React.createClass({
               </tr>
             </table>
             <table>
-             <th>Unit <br>Symbols</br></th>
-                <tr>Symbol</tr>
+             <th>Unit Symbols</th>
+                <tr></tr>
                   <td>m</td>
                   <td>kg</td>
                   <td>s</td>
@@ -95,7 +95,7 @@ var Tables = React.createClass({
                   <td>V</td>
                   <td>&Omega;</td>
                   <td>&deg;C</td>
-                <tr>Name</tr>
+                <tr></tr>
                   <td>meter</td>
                   <td>kilogram</td>
                   <td>second</td>
