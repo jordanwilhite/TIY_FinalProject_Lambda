@@ -5,9 +5,9 @@ var LogoView = React.createClass({
     return(
       <div>
         <img src={"../Lambda Logo/PNG/Lambda-Medium.png"}></img>
-        <h1>lambda</h1>
-        <h1>a physics aid | &lambda;</h1>
-        <h1>Jordan Wilhite, 2015 | an iron yard final project</h1>
+        <h1 className="">lambda</h1>
+        <h2>a physics aid | &lambda;</h2>
+        <h3> &copy; Jordan Wilhite, 2015 | an iron yard final project</h3>
       </div>
     )
   }
