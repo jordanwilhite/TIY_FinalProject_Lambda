@@ -1,8 +1,6 @@
 @import "lib/bourbon/bourbon";
 @import "lib/neat/app/assets/stylesheets/neat";
 
-
-
 body{
   // background: #050505;
   background: #fff;
@@ -51,4 +49,43 @@ body{
         @include span-columns (6);
         @include shift (3);
       }
+      div.buttons{
+        @include span-columns (6);
+        @include shift (3);
+      }
+        .tabbtn{
+          margin-left: 140px;
+          border-radius: 1px;
+          background-color: #fff;
+          border: 1px solid black;
+          outline-width: thin;
+        }
+        .mechbtn{
+          margin-left: 2px;
+          border-radius: 1px;
+          background-color: #fff;
+          border: 1px solid black;
+          outline-width: thin;
+        }
+        .wavbtn{
+          margin-left: 2px;
+          border-radius: 1px;
+          background-color: #fff;
+          border: 1px solid black;
+          outline-width: thin;
+        }
+        .elcbtn{
+          margin-left: 2px;
+          border-radius: 1px;
+          background-color: #fff;
+          border: 1px solid black;
+          outline-width: thin;
+        }
+        .gtbtn{
+          margin-left: 2px;
+          border-radius: 1px;
+          background-color: #fff;
+          border: 1px solid black;
+          outline-width: thin;
+        }
 }
