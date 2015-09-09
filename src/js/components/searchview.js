@@ -3,13 +3,24 @@ import React from 'react';
 var SearchView = React.createClass({
   render: function(){
     return(
-      <div className="buttons">
-        <button className="tabbtn" type="button">Tables</button>
-        <button className="mechbtn" type="button">Mechanics</button>
-        <button className="wavbtn" type="button">Waves</button>
-        <button className="elcbtn" type="button">Electricity</button>
-        <button className="gtbtn" type="button">Geometry & Trigonometry</button>
+      <div className="searchdrops">
+        <select className="table">
+            <option>TABLES</option>
+        </select>
+        <select className="mech">
+          <option>MECHANICS</option>
+        </select>
+        <select className="waves">
+          <option>WAVES</option>
+        </select>
+        <select className="elec">
+          <option>ELECTRICITY</option>
+        </select>
+        <select className="geotrig">
+          <option>GEOMETRY & TRIGONOMETRY</option>
+        </select>
       </div>
+
     )
   }
 });
