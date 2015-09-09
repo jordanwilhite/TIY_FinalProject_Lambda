@@ -1,7 +1,6 @@
 import React from 'react';
 import Router, { RouteHandler } from 'react-router';
 import LogoView from './logoview.js';
-import SearchView from './searchview.js';
 import MechanicsView from './mechanicsview.js';
 import MechVariables from './mechanics.js';
 import WavesView from './wavesview.js';
@@ -18,7 +17,6 @@ var App = React.createClass ({
     return(
     <div>
       <LogoView />
-      <SearchView />
       <MechanicsView />
       <MechVariables />
       <WavesView />
