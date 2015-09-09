@@ -5,11 +5,15 @@ var WaveVariables = React.createClass({
     return(
       <div>
         <h1>Wave Variables</h1>
-          <p>f = frequency</p>
-          <p>v = speed</p>
-          <p>&lambda; = wavelength</p>
+          <li nameClass="wavelist">
+            <ul>f = frequency</ul>
+            <ul>v = speed</ul>
+            <ul>&lambda; = wavelength</ul>
+          </li>
         <h1>Formula</h1>
-          <p>&lambda; = v/f</p>
+          <li>
+            <ul>&lambda; = v/f</ul>
+          </li>
       </div>
     )
   }
