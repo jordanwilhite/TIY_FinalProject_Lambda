@@ -67,11 +67,11 @@ body{
           margin-left: 335px;
           margin-top: 5px;
         }
-    li{
+    ol{
       list-style-type: none;
     }
 
-    li ul{
+    ol li{
         @include span-columns (6);
         @include shift (3);
         font-family: "Lato";
