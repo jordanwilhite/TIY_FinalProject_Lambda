@@ -5,29 +5,29 @@ var ElectricVariables = React.createClass({
     return(
         <div>
           <h1>Electricity Variables</h1>
-            <li nameClass="electriclist">
-              <ul>A = area</ul>
-              <ul>F = force</ul>
-              <ul>I = current</ul>
-              <ul>l = length</ul>
-              <ul>P = power</ul>
-              <ul>q = charge</ul>
-              <ul>R = resistance</ul>
-              <ul>r = separation</ul>
-              <ul>t = time</ul>
-              <ul>V = electric potential</ul>
-              <ul>&rho; = resistivity</ul>
-            </li>
+            <ol nameClass="electriclist">
+              <li>A = area</li>
+              <li>F = force</li>
+              <li>I = current</li>
+              <li>l = length</li>
+              <li>P = power</li>
+              <li>q = charge</li>
+              <li>R = resistance</li>
+              <li>r = separation</li>
+              <li>t = time</li>
+              <li>V = electric potential</li>
+              <li>&rho; = resistivity</li>
+            </ol>
           <h1>Formulas</h1>
-          <li>
-            <ul>F<sub>E</sub> = k (q<sub>1</sub>q<sub>2</sub>/r<sup>2</sup>)</ul>
-            <ul>I = &Delta;q/&Delta;t</ul>
-            <ul>R = &rho;l/A</ul>
-            <ul>I = &Delta;V/R</ul>
-            <ul>P = I&Delta;V</ul>
-            <ul>R<sub>s</sub> = &Sigma;<sub>i</sub>R<sub>i</sub></ul>
-            <ul>1/R<sub>p</sub> = &Sigma;<sub>i</sub>1/R<sub>i</sub></ul>
-          </li>
+          <ol>
+            <li>F<sub>E</sub> = k (q<sub>1</sub>q<sub>2</sub>/r<sup>2</sup>)</li>
+            <li>I = &Delta;q/&Delta;t</li>
+            <li>R = &rho;l/A</li>
+            <li>I = &Delta;V/R</li>
+            <li>P = I&Delta;V</li>
+            <li>R<sub>s</sub> = &Sigma;<sub>i</sub>R<sub>i</sub></li>
+            <li>1/R<sub>p</sub> = &Sigma;<sub>i</sub>1/R<sub>i</sub></li>
+          </ol>
       </div>
     )
   }
