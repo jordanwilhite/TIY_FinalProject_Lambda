@@ -32,6 +32,23 @@ var GeotrigVariables = React.createClass({
             <li>cos&theta; = b/c</li>
             <li>tan&theta; = a/b</li>
           </ol>
+      <h1>Modern Physics Variables</h1>
+          <ol nameClass="gtlist">
+            <li>E = energy</li>
+            <li>f = frequency</li>
+            <li>K = kinetic energy</li>
+            <li>m = mass</li>
+            <li>p = momentum</li>
+            <li>&lambda; = wavelength</li>
+            <li>&phi; = work function</li>
+          </ol>
+      <h1>Modern Physics Formulas</h1>
+        <ol nameClass="gtlist">
+          <li>E = hf</li>
+          <li>K<sub>max</sub> = hf - &phi;</li>
+          <li>&lambda; = h/p</li>
+          <li>E = mc<sup>2</sup></li>
+        </ol>
       </div>
     )
   }
