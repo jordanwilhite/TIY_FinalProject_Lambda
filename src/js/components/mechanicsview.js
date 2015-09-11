@@ -1,5 +1,7 @@
 import React from 'react';
 import Router from 'react-router';
+import MechVariables from './mechanics.js';
+import FluidVariables from './fluidthermal.js';
 import { DefaultRoute, Link, Route, RouteHandler} from 'react-router';
 
 var MechanicsView = React.createClass({
