@@ -20,6 +20,26 @@ var Tables = React.createClass({
                 <td>m<sub>c</sub>=9.11 &#xd7; 10<sup>-31</sup> kg</td>
               </tr>
               <tr>
+                <td>Avogadro's Number</td>
+                <td> N<sub>0</sub> = 6.02 &#xd7; 10<sup>23</sup>mol<sup>-1</sup></td>
+              </tr>
+              <tr>
+                <td>Universal Gas Constant</td>
+                <td>R = 8.31 j/(mol&#8226;K)</td>
+              </tr>
+              <tr>
+                <td>Boltzmann's Constant</td>
+                <td>k<sub>b</sub> = 1.38 &#xd7; 10<sup>-23</sup>J/K</td>
+              </tr>
+              <tr>
+                <td>Electron Charge Magnitude</td>
+                <td>e = 1.60 &#xd7; 10<sub>-19</sub>C</td>
+              </tr>
+              <tr>
+                <td>1 Electron Volt</td>
+                <td> 1eV = 1.60 &#xd7; 10<sub>-19</sub>J</td>
+              </tr>
+              <tr>
                 <td>Speed of Light</td>
                 <td>c = 3.00 &#xd7;10<sup>8</sup> m/s</td>
               </tr>
@@ -36,8 +56,28 @@ var Tables = React.createClass({
                 <td>G = 6.67 &#xd7; 10<sup>-11</sup> m<sup>3</sup> /kg&middot;s<sup>2</sup></td>
               </tr>
               <tr>
-                <td>Acceleration due <br></br> to gravity at Earths Surface</td>
+                <td>Acceleration due <br></br> to gravity at Earth's Surface</td>
                 <td> g = 9.8 m/s<sup>2</sup></td>
+              </tr>
+              <tr>
+                <td>1 Unified Atomic Mass Unit</td>
+                <td>1 u = 1.66 &#xd7; 10<sup>-27</sup> kg = 931 MeV/c<sup>2</sup></td>
+              </tr>
+              <tr>
+                <td>Planck's Constant</td>
+                <td>h = 6.63 &#xd7; 10<sub>-34</sub>J&#8226;s = 4.14 &#xd7; 10<sup>-15</sup> eV&#8226;s </td>
+              </tr>
+              <tr>
+                <td>Vacuum Permittivity</td>
+                <td>&epsilon;<sub>0</sub> = 8.85 &#xd7; 10<sup>12</sup>C<sup>2</sup>/N&#8226;m<sup>2</sup></td>
+              </tr>
+              <tr>
+                <td>Magnetic Constant</td>
+                <td>k&#8242; = &mu;<sub>0</sub>/4&pi; = 1 &#xd7; 10<sup>-7</sup> (T&#8226;m)/A </td>
+              </tr>
+              <tr>
+                <td> 1 Atmosphere Pressure</td>
+                <td> 1 atm = 1.0 &#xd7; 10<sup>5</sup> N/m<sup>2</sup> = 1.0 &#xd7; 10<sup>5</sup>Pa</td>
               </tr>
             </table>
             <table>
