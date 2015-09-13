@@ -1,4 +1,6 @@
 import React from 'react';
+import Parse from 'parse';
+import ParseReact from 'parse-react';
 import Tables from './tables.js';
 import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';

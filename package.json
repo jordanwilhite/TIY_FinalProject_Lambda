@@ -29,6 +29,8 @@
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.0",
     "karma-spec-reporter": "0.0.20",
+    "parse": "^1.6.1",
+    "parse-react": "^0.5.0",
     "phantomjs": "^1.9.17",
     "react-router": "^0.13.3",
     "react-search": "^1.0.0",

@@ -1,4 +1,6 @@
 import React from 'react';
+import Parse from 'parse';
+import ParseReact from 'parse-react';
 import ElectricVariables from './electricity.js';
 import ElecMagVariables from './emag.js';
 import Router from 'react-router';

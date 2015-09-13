@@ -1,4 +1,6 @@
 import React from 'react';
+import Parse from 'parse';
+import ParseReact from 'parse-react';
 
 var MechVariables = React.createClass({
   render: function(){
