@@ -1,6 +1,5 @@
 import React from 'react';
 import Router, { RouteHandler } from 'react-router';
-import Parse from 'parse';
 import LogoView from './logoview.js';
 import MechanicsView from './mechanicsview.js';
 import MechVariables from './mechanics.js';
