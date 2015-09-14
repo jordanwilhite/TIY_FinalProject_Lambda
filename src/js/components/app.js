@@ -1,6 +1,7 @@
 import React from 'react';
 import Router, { RouteHandler } from 'react-router';
 import LogoView from './logoview.js';
+import SearchBar from './searchbar.js';
 import MechanicsView from './mechanicsview.js';
 import MechVariables from './mechanics.js';
 import FluidVariables from './fluidthermal.js'
@@ -19,6 +20,7 @@ var App = React.createClass ({
     return(
     <div>
       <LogoView />
+      <SearchBar />
       <MechanicsView />
       <MechVariables />
       <FluidVariables />
