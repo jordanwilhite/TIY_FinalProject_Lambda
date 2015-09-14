@@ -17,9 +17,3 @@ var TableView = React.createClass({
 });
 
 export default TableView
-
-// tables
-
-var TableView = React.createClass({
-  misins:[ParseReact.Mixin]
-});
