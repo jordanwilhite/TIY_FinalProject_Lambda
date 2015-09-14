@@ -1,5 +1,4 @@
 import React from 'react';
-import Parse from 'parse';
 
 var GeotrigVariables = React.createClass({
   render: function(){

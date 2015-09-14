@@ -1,5 +1,4 @@
 import React from 'react';
-import Parse from 'parse';
 
 var Tables = React.createClass({
   render: function (){

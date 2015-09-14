@@ -1,5 +1,4 @@
 import React from 'react';
-import Parse from 'parse';
 import WaveVariables from './waves.js';
 import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
