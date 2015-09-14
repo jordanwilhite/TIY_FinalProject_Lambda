@@ -1,6 +1,5 @@
 import React from 'react';
 import Parse from 'parse';
-import ParseReact from 'parse-react';
 import Router from 'react-router';
 import MechVariables from './mechanics.js';
 import FluidVariables from './fluidthermal.js';

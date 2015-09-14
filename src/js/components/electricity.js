@@ -1,6 +1,5 @@
 import React from 'react';
 import Parse from 'parse';
-import ParseReact from 'parse-react';
 
 var ElectricVariables = React.createClass({
   render: function(){
