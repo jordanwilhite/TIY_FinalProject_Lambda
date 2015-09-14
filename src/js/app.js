@@ -3,6 +3,7 @@ import Parse from 'parse';
 import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 import LogoView from './components/logoview.js';
+import SearchBar from './components/searchbar.js';
 import MechanicsViewHandler from './components/mechanicsview.js';
 import WavesViewHandler from './components/wavesview.js';
 import ElectricityViewHandler from './components/electricityview.js';
