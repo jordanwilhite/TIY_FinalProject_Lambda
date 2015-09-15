@@ -5,6 +5,19 @@ import SearchBar from './searchbar.js';
 import ResultBox from './results.js';
 
 export default class Home extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      results: []
+    }
+  }
+  handleResults(data){
+    this.setState({
+      results: data
+    });
+  }
+
   render(){
     return(
       <div>
@@ -13,8 +26,8 @@ export default class Home extends React.Component {
             <output></output>
           </form>
         </div>
-        <SearchBar />
-        <ResultBox />
+        <SearchBar handleResults={this.handleResults.bind(this)}/>
+        <ResultBox results={this.state.results}/>
       </div>
     )
   }
