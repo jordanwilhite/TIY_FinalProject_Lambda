@@ -5,7 +5,8 @@ import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 import App from './components/app.js';
 
 let routes = (
-  <Route name="app" path="/" handler={App}>
+  <Route handler={App}>
+    <DefaultRoute name="home"/>
   </Route>
 )
 
