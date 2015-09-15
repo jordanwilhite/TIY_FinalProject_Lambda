@@ -1,7 +1,7 @@
 import React from 'react';
 
-var GeotrigVariables = React.createClass({
-  render: function(){
+export default class GeotrigVariables extends React.Component {
+  render(){
     return(
       <div>
         <h1>Geometry &<br></br>Trigonometry Variables</h1>
@@ -52,7 +52,4 @@ var GeotrigVariables = React.createClass({
       </div>
     )
   }
-});
-
-
-export default GeotrigVariables
+};

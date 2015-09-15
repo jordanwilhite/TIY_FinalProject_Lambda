@@ -3,8 +3,8 @@ import GeotrigVariables from './geotrig.js';
 import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
-var GeotrigView = React.createClass({
-  render: function(){
+export default class GeotrigView extends React.Component {
+  render(){
     return(
       <div nameClass="links">
             <Link to="geotrig" className="gtform">Geometry & Trigonometry Variables </Link>
@@ -12,6 +12,4 @@ var GeotrigView = React.createClass({
       </div>
     )
   }
-});
-
-export default GeotrigView
+};

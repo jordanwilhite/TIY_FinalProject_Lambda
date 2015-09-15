@@ -1,21 +1,34 @@
 import React from 'react';
 import Parse from 'parse';
-import $ from 'jquery';
 
-var SearchBar = React.createClass({
-  render: function() {
+export default class SearchBar extends React.Component {
+
+  search(e) {
+    if (!e.target.value) {
+      console.log(e.target.value);
+      return SearchActions.searched([]);
+    }
+
+    let PhysicsForms = Parse.Object.extend("PhysicsForms"),
+        query = new Parse.Query(PhysicsForms);
+
+    query.startsWith("label", e.target.value);
+
+    query.ascending();
+    query.find({
+      success: (list) =>{
+        SearchActions.searched(list);
+      }
+    });
+  }
+
+  render() {
     return(
       <div>
         <form className="search">
-          <input type="text" placeholder="Search"></input>
-          <button type="search" value="Submit" onClick={this.props.Search}>Search</button>
+          <input type="text" placeholder="Search" onChange={this.search}></input>
         </form>
       </div>
     )
-  },
-
-
-});
-
-
-export default SearchBar;
+  }
+}

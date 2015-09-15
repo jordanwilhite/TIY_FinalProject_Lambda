@@ -1,7 +1,7 @@
 import React from 'react';
 
-var LogoView = React.createClass({
-  render: function(){
+export default class LogoView extends React.Component {
+  render(){
     return(
       <div>
         <img src={"../Lambda Logo/PNG/Lambda-Medium.png"}></img>
@@ -11,5 +11,4 @@ var LogoView = React.createClass({
       </div>
     )
   }
-});
-export default LogoView;
+};

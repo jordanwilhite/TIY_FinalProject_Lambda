@@ -1,7 +1,7 @@
 import React from 'react';
 
-var WaveVariables = React.createClass({
-  render: function (){
+export default class WaveVariables extends React.Component {
+  render(){
    return(
        <div>
          <h1>Waves  & Optics Variables</h1>
@@ -31,7 +31,4 @@ var WaveVariables = React.createClass({
       </div>
     )
   }
-});
-
-
-export default WaveVariables
+};

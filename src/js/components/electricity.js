@@ -1,7 +1,8 @@
 import React from 'react';
 
-var ElectricVariables = React.createClass({
-  render: function(){
+export default class ElectricVariables extends React.Component {
+
+  render(){
     return(
         <div>
           <h1>Electricity Variables</h1>
@@ -31,6 +32,4 @@ var ElectricVariables = React.createClass({
               </div>
     )
   }
-});
-
-export default ElectricVariables
+};

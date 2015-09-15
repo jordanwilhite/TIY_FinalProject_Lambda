@@ -1,7 +1,7 @@
 import React from 'react';
 
-var FluidVariables = React.createClass({
-  render: function(){
+export default class FluidVariables extends React.Component {
+  render(){
     return(
      <div>
       <h1>Fluid Mechanics & Thermal Physics</h1>
@@ -43,5 +43,4 @@ var FluidVariables = React.createClass({
       </div>
     )
   }
-});
-export default FluidVariables
+};

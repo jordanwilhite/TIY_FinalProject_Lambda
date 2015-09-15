@@ -1,7 +1,7 @@
 import React from 'react';
 
-var MechVariables = React.createClass({
-  render: function(){
+export default class MechVariables extends React.Component {
+  render(){
     return(
       <div>
         <h1>Mechanics Variables</h1>
@@ -70,6 +70,4 @@ var MechVariables = React.createClass({
       </div>
     )
   }
-});
-
-export default MechVariables
+};
