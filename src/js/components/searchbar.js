@@ -24,7 +24,7 @@ export default class SearchBar extends React.Component {
     return(
       <div>
         <form className="search">
-          <input autofocus="autofocus" type="text" placeholder="Search" onChange={this.search}></input>
+          <input type="text" placeholder="Search" onChange={this.search}></input>
         </form>
       </div>
     )
