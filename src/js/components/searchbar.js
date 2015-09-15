@@ -1,7 +1,24 @@
 import React from 'react';
 import Parse from 'parse';
+import $ from 'jquery';
 
 export default class SearchBar extends React.Component {
+
+  search(e) {
+
+    let PhysicsForms = Parse.Object.extend("PhysicsForms"),
+        query = new Parse.Query(PhysicsForms);
+
+    query.startsWith("label", e.target.value);
+
+    query.ascending();
+    query.find({
+      success: (list) =>{
+        // .result(list);
+        console.log(list);
+      }
+  });
+}
 
   render() {
     return(
@@ -12,4 +29,4 @@ export default class SearchBar extends React.Component {
       </div>
     )
   }
-}
+};
