@@ -1,7 +1,7 @@
 import React from 'react';
 
-var Tables = React.createClass({
-  render: function (){
+export default class Tables extends React.Component {
+  render(){
     return(
       <div nameClass ="tablegroup">
         <table>
@@ -195,6 +195,4 @@ var Tables = React.createClass({
       </div>
     )
   }
-});
-
-export default Tables
+};

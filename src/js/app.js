@@ -1,5 +1,5 @@
 import React from 'react';
-import Parse from 'parse';
+import Parse from './parse';
 import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 import LogoView from './components/logoview.js';

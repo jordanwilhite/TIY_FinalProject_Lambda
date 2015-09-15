@@ -4,8 +4,8 @@ import ElecMagVariables from './emag.js';
 import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
-var ElectricityView = React.createClass({
-  render: function(){
+export default class ElectricityView extends React.Component {
+  render(){
     return(
       <div nameClass="links">
             <Link to="electricity" className="eform">Electricity Variables </Link>
@@ -13,6 +13,4 @@ var ElectricityView = React.createClass({
       </div>
     )
   }
-});
-
-export default ElectricityView
+};

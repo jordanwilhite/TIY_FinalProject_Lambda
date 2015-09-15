@@ -3,8 +3,8 @@ import WaveVariables from './waves.js';
 import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
-var WavesView = React.createClass({
-  render: function(){
+export default class WavesView extends React.Component {
+  render(){
     return(
       <div nameClass="links">
             <Link to="waves" className="wform">Wave Variables </Link>
@@ -12,6 +12,4 @@ var WavesView = React.createClass({
       </div>
     )
   }
-});
-
-export default WavesView
+};

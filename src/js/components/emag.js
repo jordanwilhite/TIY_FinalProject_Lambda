@@ -1,7 +1,7 @@
 import React from 'react';
 
-var ElecMagVariables = React.createClass({
-  render: function(){
+export default class ElecMagVariables extends React.Component {
+  render(){
     return(
       <div>
         <h1>Electricity & Magnetism Variables</h1>
@@ -64,6 +64,4 @@ var ElecMagVariables = React.createClass({
       </div>
     )
   }
-});
-
-export default ElecMagVariables
+};

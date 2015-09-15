@@ -4,8 +4,8 @@ import MechVariables from './mechanics.js';
 import FluidVariables from './fluidthermal.js';
 import { DefaultRoute, Link, Route, RouteHandler} from 'react-router';
 
-var MechanicsView = React.createClass({
-  render: function(){
+export default class MechanicsView extends React.Component {
+  render(){
     return(
       <div nameClass="links">
         <Link to="mechanics" className="mform">Mechanics Variables </Link>
@@ -13,6 +13,4 @@ var MechanicsView = React.createClass({
       </div>
     )
   }
-});
-
-export default MechanicsView
+};
