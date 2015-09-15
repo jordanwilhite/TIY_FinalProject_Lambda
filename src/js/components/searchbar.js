@@ -3,11 +3,12 @@ import Parse from 'parse';
 
 export default class SearchBar extends React.Component {
 
+
+
   search(e) {
     if (!e.target.value) {
-      console.log(e.target.value);
-      return SearchActions.searched([]);
-    }
+    return searchValue.result([]);
+  }
 
     let PhysicsForms = Parse.Object.extend("PhysicsForms"),
         query = new Parse.Query(PhysicsForms);
@@ -17,7 +18,7 @@ export default class SearchBar extends React.Component {
     query.ascending();
     query.find({
       success: (list) =>{
-        SearchActions.searched(list);
+        searchValue.result(list);
       }
     });
   }
