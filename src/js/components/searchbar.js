@@ -3,28 +3,33 @@ import Parse from 'parse';
 import $ from 'jquery';
 
 export default class SearchBar extends React.Component {
+  constructor(props) {
+    super(props);
 
-  search(e) {
+    this.state = {
+      searchTerm: ''
+    }
+  }
 
-    let PhysicsForms = Parse.Object.extend("PhysicsForms"),
-        query = new Parse.Query(PhysicsForms);
+  handleChange(){
+    this.setState({
+      searchTerm: React.findDOMNode(this.refs.search).value
+    });
 
-    query.startsWith("label", e.target.value);
-
+    let PhysicsForms = Parse.Object.extend("PhysicsForms");
+    let query = new Parse.Query(PhysicsForms);
+    query.startsWith("label", this.state.searchTerm);
     query.ascending();
-    query.find({
-      success: (list) =>{
-        // .result(list);
-        console.log(list);
-      }
-  });
-}
+    query.find().then(list => {
+      this.props.handleResults(list);
+    });
+  }
 
   render() {
     return(
       <div>
         <form className="search">
-          <input type="text" placeholder="Search" onChange={this.search}></input>
+          <input type="text" ref="search" placeholder="Search" value={this.state.searchTerm} onChange={this.handleChange.bind(this)}></input>
         </form>
       </div>
     )
