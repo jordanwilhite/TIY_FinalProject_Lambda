@@ -87,6 +87,13 @@ body{
     div.results{
       @include span-columns (6);
       @include shift (3);
-      background: red;
+      margin-top: 20px;
+      margin-left: 435px;
+      font-family: "Lato";
+      font-size: 15px;
+      text-decoration: none;
+      text-align: left;
+      white-space:normal;
+      color: #fff;
     }
 }
