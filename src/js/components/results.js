@@ -21,7 +21,7 @@ const TYPES = {
   WOV: 'Waves & Optics'
 }
 export default class ResultBox extends React.Component {
-  render() {
+  render(){
     let {results} = this.props
     return(
       <div className="results">
