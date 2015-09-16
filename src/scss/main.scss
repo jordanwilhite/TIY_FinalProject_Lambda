@@ -68,18 +68,18 @@ body{
           margin-top: 14px;
         }
     div.container{
-      @include span-columns (6);
+      @include span-columns(6);
       @include shift(3);
     }
     form.search{
       @include span-columns (6);
       @include shift(3);
       margin:0;
-      margin-left: 475px;
+      margin-left: 460px;
       margin-top: 20px;
     }
       input{
-        width:400px;
+        width:432px;
         font-size: 20px;
         border-style: none;
         color: #050505;
@@ -88,41 +88,18 @@ body{
       @include span-columns (6);
       @include shift (3);
       margin-top: 20px;
-      margin-left: 500px;
+      margin-left: 475px;
       font-family: "Lato";
-      font-size: 15px;
+      font-size: 20px;
       text-decoration: none;
-      text-align: left;
+      text-align: justift;
       white-space:normal;
       color: #fff;
       list-style: none;
+        strong{
+          color: #ba0be0;
+        }
     }
-    // Uncomment this for a sticky footer.
-  //
-  // .wrapper-for-content-outside-of-footer {
-  //   min-height: 100%;
-  //   height: auto !important;
-  //   height: 100%;
-  //   margin: 0 auto -4em;
-  // }
-
-  // html, body {
-  //  height: 100%;
-  // }
-
-  // .wrapper-for-content-outside-of-footer:after {
-  //   content: "";
-  //   display: block;
-  // }
-
-  // .footer, .wrapper-for-content-outside-of-footer:after {
-  //   $large-screen: em(860) !default;
-  //   height: 12em;
-
-  //   @include media($large-screen) {
-  //     height: 4em;
-  //   }
-  // }
 
   .footer {
     @include span-columns(6);
@@ -137,12 +114,6 @@ body{
         float: left;
         margin-bottom: 0;
       }
-
-      img {
-
-      }
-    }
-
     ul {
       margin: 0;
       padding-left: 0;
@@ -159,9 +130,9 @@ body{
         @include media($large-screen) {
           display: inline;
           text-align: left;
+          }
         }
       }
     }
   }
-
 }
