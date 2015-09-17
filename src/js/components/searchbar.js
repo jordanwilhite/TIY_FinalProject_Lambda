@@ -2,6 +2,12 @@ import React from 'react';
 import Parse from 'parse';
 import $ from 'jquery';
 
+function toTitleCase(str) {
+  return str.replace(/\w\S*/g, function(txt){
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
+}
+
 export default class SearchBar extends React.Component {
   constructor(props) {
     super(props);
@@ -12,17 +18,20 @@ export default class SearchBar extends React.Component {
   }
 
   handleChange(){
+    let searchTerm = React.findDOMNode(this.refs.search).value;
     this.setState({
-      searchTerm: React.findDOMNode(this.refs.search).value
+      searchTerm: searchTerm
     });
 
-    let PhysicsForms = Parse.Object.extend("PhysicsForms");
-    let query = new Parse.Query(PhysicsForms);
-    query.startsWith("label", this.state.searchTerm);
-    query.ascending();
-    query.find().then(list => {
-      this.props.handleResults(list);
-    });
+    if (searchTerm.trim()) {
+      let PhysicsForms = Parse.Object.extend("PhysicsForms");
+      let query = new Parse.Query(PhysicsForms);
+      query.startsWith("label", toTitleCase(this.state.searchTerm));
+      query.ascending();
+      query.find().then(list => {
+        this.props.handleResults(list);
+      });
+    }
   }
 
   render() {
