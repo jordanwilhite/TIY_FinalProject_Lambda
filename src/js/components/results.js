@@ -30,7 +30,7 @@ export default class ResultBox extends React.Component {
             console.log(result.get('label'));
             return (
               <li key={result.id}>
-                <strong>{TYPES[result.get('type')]}</strong><br> {result.get('value')}: {result.get('label')}</br>
+                <strong>{TYPES[result.get('type')]}</strong><br> {result.get('value')} =  {result.get('label')}</br>
               </li>
             )
           })
