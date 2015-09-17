@@ -38,7 +38,7 @@ export default class SearchBar extends React.Component {
     return(
       <div>
         <form className="search">
-          <input type="text" ref="search" placeholder="Search (i.e. area)" value={this.state.searchTerm} onChange={this.handleChange.bind(this)}></input>
+          <input type="text" ref="search" placeholder="Search (i.e. area)" value={this.state.searchTerm} onChange={this.handleChange.bind(this)} onKeyUp={this.handleChange.bind(this)}></input>
         </form>
       </div>
     )
