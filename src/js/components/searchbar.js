@@ -23,8 +23,7 @@ export default class SearchBar extends React.Component {
       searchTerm: searchTerm
     });
 
-
-    if (searchTerm.trim()) {
+    if (searchTerm.trim() || (searchTerm.length >= 3)) {
       let PhysicsForms = Parse.Object.extend("PhysicsForms");
       let query = new Parse.Query(PhysicsForms);
       query.startsWith("label", toTitleCase(this.state.searchTerm));
