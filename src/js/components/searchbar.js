@@ -23,6 +23,7 @@ export default class SearchBar extends React.Component {
       searchTerm: searchTerm
     });
 
+
     if (searchTerm.trim()) {
       let PhysicsForms = Parse.Object.extend("PhysicsForms");
       let query = new Parse.Query(PhysicsForms);
