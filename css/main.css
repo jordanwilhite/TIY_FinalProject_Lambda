@@ -26,7 +26,7 @@ body {
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-left: 25.58941%;
-    width: 444px;
+    width: 32%;
     margin-left: 450px; }
     body img:last-child {
       margin-right: 0; }
@@ -85,7 +85,7 @@ body {
     text-align: center;
     font-family: "Lato";
     font-weight: 400;
-    font-size: 25px;
+    font-size: 28px;
     color: #5D5B81;
     margin: 0;
     margin-left: 335px;
@@ -105,12 +105,12 @@ body {
     width: 48.82117%;
     margin-left: 25.58941%;
     margin: 0;
-    margin-left: 460px;
+    margin-left: 443px;
     margin-top: 20px; }
     body form.search:last-child {
       margin-right: 0; }
   body input {
-    width: 432px;
+    width: 69%;
     font-size: 20px;
     border-style: none;
     color: #050505; }
