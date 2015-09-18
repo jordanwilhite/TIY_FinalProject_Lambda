@@ -113,7 +113,8 @@ body {
     width: 69%;
     font-size: 20px;
     border-style: none;
-    color: #050505; }
+    color: #050505;
+    padding: 5px; }
   body div.results {
     float: left;
     display: block;
